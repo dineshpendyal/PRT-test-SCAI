@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'PRT-test-SCAI'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A71B4B3514BD4C789872497910AF0B29 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_771EF240B78F4FC28B8F34C1D6DE8A97 }}
           package: '*.jar'
